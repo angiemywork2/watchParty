@@ -1,0 +1,302 @@
+
+	<!DOCTYPE html>
+	<html lang="en-us">
+		<head>
+			<meta charset="UTF-8">
+			<title>Watch Party</title>
+			
+			<!-- Bootstrap Link -->
+		
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+		 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+			<!-- Google Fonts -->
+			<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+
+			<link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
+
+			<link href="https://fonts.googleapis.com/css?family=Frijole|Monoton" rel="stylesheet">
+
+
+			<!-- Firebase Reference -->
+    		<script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+
+    		<!-- Moment.js Reference -->
+    		<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+   			<!-- CSS Reference -->
+  			<link rel="stylesheet" type="text/css" href="style.css">
+
+
+  			<!--Social Media Reference -->
+  			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			
+			<!-- jQuery link -->
+			<script
+      		src="http://code.jquery.com/jquery-3.2.1.js"
+      		integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+      		crossorigin="anonymous"></script>    <script type="text/javascript"></script>
+
+			<!-- jQuery Calendar library -->
+      		<link type="text/css" href="assets/CalendarLibrary/jquery.icalendar.css" rel="stylesheet"> 
+
+      		<!-- jquery Calendar CSS -->
+      		<script type="text/javascript" src="assets/CalendarLibrary/jquery.icalendar.js"></script>
+
+		</head>
+		
+		<body>
+		<!-- Jumbotron for the Title: Watch Party App -->
+			
+			<div id="container">
+				<!-- Jumbotron: "Train Schedule" Title -->
+				<div class="row">
+					<div class="jumbotron">
+						
+
+						<h1 class="text-center">The Ultimate Watch Party!</h1>
+
+						<h2 class="text-center">'The Premier Place to Plan Your Watch Parties with Friends'</h2>
+
+		      			<img src="popcorn2.png" alt="Popcorn">
+
+		      		</div>
+		      			
+		    	</div>
+
+		    	<hr>
+			</div>
+
+			
+				
+		<!-- Description of service app provides in a text box panel (like HW bio) Binge watch your fav shows with your friends! -->
+			<div id="about">
+			<div class="row">
+				<div class="col-md-12">
+				<!-- Insert interesting text here to grab users attention. Why should they use this site to plan watch party and invite friends! -->
+
+					<h1 id="friday">It's &nbsp; Friday &nbsp;  Night!</h1>
+
+					
+					<h3> The season premiere of your favorite show was just released. No worries!
+					<br>Check out the show schedule and invite your friends to a virtual watch party! 
+					<br>It's simple!
+					</h3>
+				</div>
+			</div>
+			</div>
+
+
+			<div id="carousel-images" class="carousel slide" data-ride="carousel" data-interval="3000">
+	  <!-- Indicators -->
+					<ol class="carousel-indicators">
+					<li data-target="#carousel-images" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-images" data-slide-to="1"></li>
+					<li data-target="#carousel-images" data-slide-to="2"></li>
+					<li data-target="#carousel-images" data-slide-to="3"></li>
+					<li data-target="#carousel-images" data-slide-to="4"></li>
+	    			</ol>
+
+	  <!-- Wrapper for slides -->
+			<div class="container">
+				<div class="carousel-inner" role="listbox">
+				    <div class="item active">
+				    	<center><img src="http://www.thewareaglereader.com/wp-content/uploads/2015/05/Chuck_TV_Series-443416459-large-1.jpg" alt="Chuck" style="width:100%;height:450px;"></center>
+				    <div class="carousel-caption">
+				        Search for your favorite show!
+				    </div>
+					</div>
+				    
+				    <div class="item">
+				    	<center><img src="https://img.netnaija.com/3Y6HHK.jpg" style="width:100%;height:450px;"></center>
+				      
+				    <div class="carousel-caption">
+				       	Send out an evite to your friends!
+				    </div>
+					</div>
+	   
+			   		<div class="item">
+			      		<center><img src="http://blog.mrcostumes.com/wp-content/uploads/Game-of-Thrones-Costumes-Banner.jpg" alt="Game-of-Thrones" style="width:100%;height:450px;"></center>
+			      
+			      	<div class="carousel-caption">
+			       		Everyone watch the show together virtually!   
+			      	</div>
+			    	</div>
+	  
+	  
+
+	  				<div class="item">
+	      				<center><img src="https://cdn1.edgedatg.com/aws/v2/abc/TheBachelorette/showimages/ade186cbd1d66e103c6a17e0f589dfe2/1200x627-Q80_ade186cbd1d66e103c6a17e0f589dfe2.jpg" alt="TheBachelorette" style="width:100%;height:450px;"></center>
+	      
+	      			<div class="carousel-caption">
+	        		 	Use social media to post comments while you watch!
+	      			</div>
+	    			</div>
+	   
+	  			</div>
+
+	  		</div>
+	  		</div>
+
+	  <!-- Controls -->
+				  	<a class="left carousel-control" href="#carousel-images" role="button" data-slide="prev">
+				    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  	</a>
+				  	<a class="right carousel-control" href="#carousel-images" role="button" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  	</a>
+	
+
+					<h1>#ItsAWatchPartyWeekend!</h1>
+
+							
+
+
+				<div class="form-group">
+
+					
+          			<label for="show-name-input" class="col-md-offset-3 col-md-6 col-md-offset-3" control-label">Add Show</label> 
+          			<br>
+          			<div class="col-md-offset-3 col-md-6 col-md-offset-3">
+          			<!-- h4 class="submit-title"><strong>Add Show</strong></h4> -->
+          			<input class="form-control"  id="tvShow-input" type="text" textarea placeholder= "What show are you looking for?"> 
+				</div>
+        	
+        		<br>
+		    </div>
+		   <!--  </form>  -->  
+
+	      	<div class="row">
+	      		<div class="col-md-offset-3 col-md-6 col-md-offset-3">
+		     		<center><button class="btn btn-primary" id="find-tvShow" type="submit" >Submit</button></center>
+		     	</div>
+	     	</div>
+	     	<br>
+			     	
+		   
+
+
+		<!-- Table that will populate show name, plot, show times, ratings to compare-->
+			<div class="container">
+				<div class="row">
+					<div class="panel panel-primary">
+		    			<div class="panel-heading">
+		     				<h3 class="panel-title"><strong>SHOWTIMES</strong></h3>
+		      			</div>
+		      		</div>
+		    
+		    	<div class="panel-body">
+		     		<table class="table table-hover" id="show-table">
+		         	<thead>
+		            <tr>
+
+		            	<th width="15%" height="50px">SHOW TITLE</th>
+		            	<th width="5%" height="50px">RATED</th>
+		            	<th width="50%" height="auto">PLOT</th>
+		            	<th width="10%" height="50px" style="text-align: center;">NETWORK</th>
+		            	<th width="10%" height="50px" style="text-align: center;">DAY</th>
+		             	<th width="10%" height="50px" style="text-align: center;">TIME</th> 
+
+					</tr>
+
+		        	</thead>
+		        	<tbody class="table body">
+
+		        						
+					</tbody>
+			        </table>
+			    	</div>
+				</div>
+			</div>
+
+			<br>
+			
+			<div class="container">
+				<div class="row">
+					<div class="ratings-link">
+							<h2>TV PARENTAL GUIDELINES</h2>
+							<a href="http://www.tvguidelines.org/ratings.htm" target="_blank" tvguidelines.org/ratings.htm>
+							<img alt="ratings" src="ratings.jpg" width="600" height="75">
+							</a>
+							<p>Click for more details</p>
+					</div>
+				</div>
+			</div>
+
+
+				
+			<script>
+				$('.carousel').carousel({
+				interval: 3000
+
+		            	
+		        	
+			       
+
+		
+
+			});
+			
+			</script>
+
+
+	
+
+			<br>
+
+			<!-- Google Calendar to schedule watch parties and invite friends -->
+
+
+
+	
+			
+	
+			
+
+			<div class="container">
+				<div class="row">
+					<div class="calendar">
+					
+					</div>
+				</div>
+			</div>
+
+
+			<br>
+
+
+		 <!-- Social Media Links -->
+    		<div class="responsive">
+    			<div class="gallery">
+    				<div class="col-md-offset-3 col-md-6 col-md-offset-3">
+
+	           		<center>
+	        		<a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank" facebook.com></a>
+
+					<a href="https://twitter.com/" class="fa fa-twitter" target="_blank" twitter.com></a>
+			
+					<a href="https://www.snapchat.com/" class="fa fa-snapchat-ghost" target="_blank" snapchat.com></a>
+
+					<a href="https://www.instagram.com/accounts/login/" class="fa fa-instagram" target="_blank" instagram.com></a>
+
+					<a href="https://www.youtube.com/results?search_query=movies" class="fa fa-youtube" target="_blank" youtube.com/results?search_query=movies></a>
+
+					</center>
+					</div>
+				</div>
+			</div>
+
+
+		<footer>Copyright &copy; Angie - Eliseo - Taneah - Dawn</footer>
+		
+		<!-- JavaScript	-->
+	    <script src="./assets/tvshows.js"></script>
+
+
+		</body>
+		</html>

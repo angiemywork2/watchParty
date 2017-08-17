@@ -1,0 +1,253 @@
+
+@media screen and (max-width: 768px) {
+}
+
+body{
+	background: linear-gradient(to bottom, #000000 2%, #000066 100%);
+
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+
+
+.carousel-caption {
+	top: 0;
+	bottom: auto;
+	font-size: 22px;
+	color: #cc0000;
+}
+
+
+#friday {
+	font-family: 'Monoton', cursive;
+
+color: yellow;
+	font-size: 50px;
+}
+
+
+#about {	
+	color: #f2f2f2;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.right.carousel-control, 
+.left.carousel-control 
+{
+     visibility:hidden;
+}
+
+
+h1 {
+	color: #f2f2f2;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+}
+
+.form-group  {
+	font-size: 20px;
+	color: #f2f2f2;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+hr {
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 5px;
+}
+
+.jumbotron {
+    position: relative;
+    background: linear-gradient(to top, #000000 2%, #000066 100%);
+    /*width: 100%;*/
+    height: 350px;
+    background-size: cover;
+    overflow: hidden;
+    font-family: 'Acme', sans-serif;
+    text-shadow:-1px 0 #00ffff, 0 1px #00ffff, 1px 0 #00ffff, 0 -1px #00ffff;
+}
+
+.jumbotron h1 {
+	font-size: 100px;
+    color: red;
+}
+
+.jumbotron h2 {
+	font-family: 'Acme', sans-serif;
+	font-size: 40px;
+    color: red;
+}
+
+.jumbotron img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 400px;
+	opacity: 0.2;
+}
+
+.form-group {
+	text-align: cover;
+}
+
+.panel {
+	background-color: #4d4d4d;
+	border: none;
+	color: black;
+	font-size: 16px;
+}
+
+.panel-primary>.panel-heading {
+	background-color: red;
+	border: none;
+	font-family: 'Acme', sans-serif;
+	color: black;
+	text-align: center;
+}
+
+.panel-title {
+	font-size: 30px;
+}
+
+.panel-body{
+	background-color: red;
+	font-family: calibri;
+}
+
+
+.table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+
+.table thead tr th {
+	background-color: #000066;
+	border: none;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	color: #cce5ff;
+}
+
+.table tr {
+	border-top: 2px solid #000066;
+	border-bottom: 2px solid #000066;
+}
+
+.table td {
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+
+	white-space: pre-line;
+
+}
+
+.btn-primary {
+	background-color: red;
+	padding: 5px;
+	position: center;
+	width: 150px;
+	font-size: 1.4em;
+	margin: 0px 0px 50px 0px;
+
+	border:none;	
+}
+
+
+.btn-primary:hover {
+    color: black;
+    background-color: yellow;
+    border-color: red;
+}
+
+.ratings-link {
+	padding-top: 2px;
+	padding-bottom: 20px;
+	background-color: red;
+	border: none;
+	font-family: 'Acme', sans-serif;
+	color: black;
+	text-align: center;
+
+
+	border:none;	
+
+	
+
+	
+}
+
+
+
+
+
+.calendar{
+	background-color: white;
+	color: red;
+	font-size: 25px;
+	text-align: center;
+}
+
+footer {
+	padding: 1.5em;
+	font-size: 18px;
+	color: pink;
+	background-color: black;
+	clear: left;
+	text-align: center;
+
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+
+
